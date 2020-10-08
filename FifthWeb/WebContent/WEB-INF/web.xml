@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>FifthWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>display</servlet-name>  
+<servlet-class>Display</servlet-class>  
+  </servlet>
+  
+ <context-param>  
+<param-name>EventName</param-name>  
+<param-value>ElPasoNightlife</param-value>
+</context-param>  
+<context-param>  
+<param-name>Eventname</param-name>  
+<param-value>Plaza classic film festival</param-value>
+</context-param>  
+
+<context-param>  
+<param-name>HallName</param-name>  
+<param-value>Walt Disney Concert Hall</param-value>  
+</context-param>  
+<context-param>  
+<param-name>Hallname</param-name>  
+<param-value>Oslo Opera House</param-value>  
+</context-param> 
+
+<context-param>  
+<param-name>Price</param-name>  
+<param-value>100</param-value>  
+</context-param>     
+<context-param>  
+<param-name>price</param-name>  
+<param-value>400</param-value>  
+</context-param>           
+ 
+</web-app>
